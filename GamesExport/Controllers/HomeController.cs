@@ -15,6 +15,7 @@ namespace GamesExport.Controllers
 
         public IActionResult Index()
         {
+            ViewData["email"] = "williamtavaresdemoura@gmail.com";
             return View();
         }
 
